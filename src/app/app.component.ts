@@ -10,8 +10,6 @@ export class AppComponent {
   data = {
     title: 'my first Angular project',
     by: 'Zoe Cohen',
-    inputValue: 'Demo Value',
-    isClicked: ' '
   };
 
   onClick() {

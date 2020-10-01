@@ -2,6 +2,8 @@ Syntax:
 {{ }} --> js expression / interpolation syntax --> allows us to access data from Model in View
 
 [value] = "data.val" --> angular syntax
-# ---> name of element --> template reference
 (click)="handleClick()"
+
+# ---> gives name of element 
+    --> template reference so that we can refer to element
 
