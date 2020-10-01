@@ -8,12 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   data = {
-    title: 'my first Angular project',
-    by: 'Zoe Cohen',
+    title: 'Search',
+    search: 'Project Name',
   };
 
   onClick() {
     alert('Clicked!')
+  }
+
+  onKeyUp(searchInput: string) { //typescript
+    this.data.search = searchInput
   }
 
 }

@@ -1,8 +1,7 @@
 <div>
-  <h1>{{data.title}}</h1>
-  <h3>By: {{data.by}}</h3>
+  <h1>{{data.title}}: {{data.search}}</h1>
 </div>
 
-<input class="demo" [value]="data.title" #titleInput>
+<input class="demo" (keyup)="onKeyUp(searchInput.value)" [value]="data.search" #searchInput>
 
 <button (click)="onClick()">Click Me</button>

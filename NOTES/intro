@@ -6,4 +6,6 @@ Syntax:
 
 # ---> gives name of element 
     --> template reference so that we can refer to element
-
+    --> for example, if we want to use the input value in a textbox, 
+        don't use e.target.value but rather 
+        input.value if the textbox has #input as a ref
