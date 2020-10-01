@@ -14,11 +14,8 @@ export class AppComponent {
     isClicked: ' '
   };
 
-  onClick(){
-    this.data.isClicked = 'Clicked!'
+  onClick() {
+    alert('Clicked!')
   }
 
-  onMouseOver(){
-    this.data.isClicked = 'Nope!'
-  }
 }

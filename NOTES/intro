@@ -1,7 +1,7 @@
 Syntax:
 {{ }} --> js expression / interpolation syntax --> allows us to access data from Model in View
 
-[value] = "data.val"
+[value] = "data.val" --> angular syntax
 # ---> name of element --> template reference
 (click)="handleClick()"
 
