@@ -1,0 +1,7 @@
+Syntax:
+{{ }} --> js expression / interpolation syntax --> allows us to access data from Model in View
+
+[value] = "data.val"
+# ---> name of element --> template reference
+(click)="handleClick()"
+

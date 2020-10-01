@@ -1,0 +1,7 @@
+input.demo{
+    background-color: lightblue;
+}
+
+input.demo:focus{
+    outline: none;
+}

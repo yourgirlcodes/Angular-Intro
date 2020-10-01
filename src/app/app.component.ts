@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-intro';
+
+  data = {
+    title: 'my first Angular project',
+    by: 'Zoe Cohen',
+    inputValue: 'Demo Value',
+    isClicked: ' '
+  };
+
+  onClick(){
+    this.data.isClicked = 'Clicked!'
+  }
+
+  onMouseOver(){
+    this.data.isClicked = 'Nope!'
+  }
 }
